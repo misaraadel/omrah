@@ -1,6 +1,6 @@
 <template>
 <div>
-    <home-intro introImg="header_bus" :introHead="`${planHead}`" :introDesc="`${planDesc}`" />
+    <home-intro introImg="plane" :introHead="`${planHead}`" :introDesc="`${planDesc}`" />
 
     <home-services />
 
@@ -9,6 +9,8 @@
     <home-message />
 
     <plane-offers />
+
+    <home-contact />
 
     <home-location />
 </div>
@@ -27,6 +29,7 @@ components: {
     homeFeatures: () => import(`@/components/home/home-features`),
     homeMessage: () => import(`@/components/home/home-message`),
     planeOffers: () => import(`@/components/home/plane-offers`),
+    homeContact: () => import(`@/components/home/home-contact`),
     homeLocation: () => import(`@/components/home/home-location`),
 },
 

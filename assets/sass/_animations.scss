@@ -132,12 +132,12 @@
 
 @keyframes spinner {
   0% {
-    transform: rotate(0deg) scale3d(.8, .8, .8);
+    transform: rotate(0deg) scale3d(1, 1, 1);
 
   }
 
   100% {
-    transform: rotate(360deg) scale3d(1, 1, 1);
+    transform: rotate(10deg) scale3d(1.5, 1.5, 1.5);
   }
 }
 

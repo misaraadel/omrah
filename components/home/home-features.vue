@@ -5,7 +5,7 @@
         headImg="feature_head"
         :headingTitle="`${featureHead}`"
         headColor="text-dec"
-        dispalyText="none"/>
+        dispalyText="hidden"/>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-10">
             <template v-for="feature in features">

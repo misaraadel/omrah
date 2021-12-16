@@ -2,7 +2,7 @@
 <div class="w-full global-heading mb-16 text-center flex flex-col justify-center items-center content-center">
     <img
         :src="`/img/${headImg}.svg`"
-        class="w-12 h-12 object-contain mb-5"
+        :class="`${display} w-12 h-12 object-contain mb-5 `"
         :alt="`${headingTitle}`"
     />
 
@@ -18,6 +18,6 @@
 
 <script>
 export default {
-    props: ['headImg', 'headingTitle', 'headingDesc' , 'dispalyText' , 'headColor' ]
+    props: ['headImg', 'headingTitle', 'display' , 'headingDesc' , 'dispalyText' , 'headColor' ]
 }
 </script>

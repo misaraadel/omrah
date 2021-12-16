@@ -26,11 +26,8 @@
 
 <script>
 export default {
-    data(){
-        return{
-            subHeader: 'كل عروض الباصات',
-        }
-    }
+    
+    props:['subHeader']
 }
 </script>
 

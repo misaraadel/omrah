@@ -4,7 +4,8 @@
         <general-heading
             headImg="location_head"
             :headingTitle="`${locationHead}`"
-            headColor="text-white"/>
+            headColor="text-white"
+            dispalyText="hidden"/>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-5">
             <div class="lg:col-start-1 lg:col-end-2">

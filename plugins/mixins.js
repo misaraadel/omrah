@@ -3,6 +3,7 @@ import { mapGetters } from 'vuex'
 import callToAction from '@/components/core/call-to-action'  
 import offerCard from '@/components/core/offer-card' 
 import generalHeading from '@/components/core/general-heading'
+import offerHead from '@/components/core/offer-head'
 import vError from '@/components/v-error'
 import Cookies from "js-cookie";
 
@@ -11,6 +12,7 @@ const Mix = {
     Vue.component('call-to-action', callToAction)
     Vue.component('offer-card', offerCard)
     Vue.component('general-heading', generalHeading)
+    Vue.component('offer-head', offerHead)
     Vue.component('v-error', vError)
 
     Vue.mixin({
