@@ -46,7 +46,7 @@ export default {
   fontLoader: { url: '/fonts/fonts.css' },
 
   sitemap: {
-    // hostname: 'https://mis.edu.sa',
+    hostname: '',
     gzip: true,
     i18n: { defaultLocale: 'ar', locales: ['ar', 'en'], routesNameSeparator: '___' }
   },
