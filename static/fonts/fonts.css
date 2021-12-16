@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Tajawal';
+  src: url("./Tajawal-Regular.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  src: url("./Tajawal-Medium.woff2") format('woff2');
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  src: url("./Tajawal-ExtraBold.woff2") format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  font-family: 'Tajawal' , sans-serif;
+}
